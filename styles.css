@@ -1,29 +1,191 @@
-.body {
-    font-family: roboto, sans-serif;
+/*Body*/
+
+/*TROUBLESHOOTNG*/
+body {
+    border: 3px solid rgb(25, 0, 255);
 }
+/*TROUBLESHOOTNG  END*/
+
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Body END*/
+
 
 /*Header*/
 
+/*TROUBLESHOOTING
+
+header {
+    border: 3px solid red;
+}
+
+.width-container {
+    border: 3px dashed rgb(88, 2, 59);
+}
+
+.logo {
+    border: 3px dashed rgb(255, 0, 170);
+}
+
+nav {
+    border: 3px dashed rgb(255, 0, 170);
+}
+
+/*TROUBLESHOOTING END*/
+
 header {
     display: flex;
-    border: 3px solid red;
+    justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+.width-container {
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
 }
 
 nav {
     display: flex;
-    border: 3px solid purple;
 }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header END*/
+
 
 /*Main Content*/
 
-main{
-    display: flex;
+/*MAIN TROUBLESHOOTING*/
+
+main {
     border: 3px solid orange;
 }
 
-/*Footer*/
+.main-content {
+    border: 3px solid brown;
+}
+
+.left-container {
+    border: 3px solid goldenrod;
+}
+
+.right-container {
+    border: 3px solid goldenrod;
+}
+
+section {
+    border: 3px dotted violet;
+}
+
+.hero {
+    border: solid red;
+}
+
+/*MAIN TROUBLESHOOTING END*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+/*
+.main-container {
+    width: 750px;
+}
+*/
+button {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hero {
+    display: flex;
+    background: #1F2937;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.hero-button {
+    border: none;
+    background: #3882F6;
+}
+
+.hero-button a {
+    color: #E5E7EB;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+
+
+
+/*Footer Content*/
+
+/*TROUBLESHOOTING*/
+
+footer {
+    border: 3px solid green;
+}
+
+/*TROUBLESHOOTING END*/
 
 footer {
     display: flex;
-    border: 3px solid green;
 }
+
+/*Footer END*/
