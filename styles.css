@@ -185,7 +185,7 @@ button {
     /*border: 3px solid black;*/
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 .service-options {
@@ -236,12 +236,14 @@ button {
     display: flex;
     font-style: italic;
     font-size: 36px;
+    margin-bottom: 0;
 }
 
 .citation {
     display: flex;
     justify-content: end;
     font-weight: 800;
+    margin-right: 0;
 }
 
 .cta {
