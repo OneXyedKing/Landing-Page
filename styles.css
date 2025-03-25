@@ -1,16 +1,18 @@
 /*Body*/
 
-/*TROUBLESHOOTNG*/
+/*TROUBLESHOOTNG*
 body {
     border: 3px solid rgb(25, 0, 255);
 }
 /*TROUBLESHOOTNG  END*/
 
 body {
+    margin: 0 0 0 0;
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
 }
 
 /*Body END*/
@@ -81,7 +83,7 @@ a {
 
 /*Main Content*/
 
-/*MAIN TROUBLESHOOTING*/
+/*MAIN TROUBLESHOOTING
 
 main {
     border: 3px solid orange;
@@ -93,6 +95,7 @@ main {
 
 .left-container {
     border: 3px solid goldenrod;
+    color: white;
 }
 
 .right-container {
@@ -112,6 +115,7 @@ section {
 main{
     display: flex;
     flex-direction: column;
+    width: 100vw;
     /*justify-content: center;*/
     align-items: center;
 }
@@ -139,6 +143,9 @@ button {
 .hero {
     display: flex;
     background: #1F2937;
+    width: 100vw;
+    color: #E5E7EB;
+    padding: 30px;
 }
 
 .hero-content {
@@ -171,12 +178,112 @@ button {
     flex: 1 1 0;
 }
 
+.services-container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    /*border: 3px solid black;*/
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
 
+.service-options {
+    display: flex;
+}
 
+.option-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    border: 3px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-text {
+    text-align: center;
+}
+
+.review-section {
+    display: flex;
+    background: #E5E7EB;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container {
+    display: flex;
+    width: 750px;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.review {
+    display: flex;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.citation {
+    display: flex;
+    justify-content: end;
+    font-weight: 800;
+}
+
+.cta {
+    width: 100vw;
+    padding: 30px;
+}
+
+.cta-container {
+    display: flex;
+    background: #3882F6;
+    color: white;
+    border-radius: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-heading {
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.cta-body {
+    margin-top: 0;
+}
+
+.cta-button {
+    height: 30px;
+    background: #3882F6;
+    border: 2px solid #E5E7EB;
+}
 
 /*Footer Content*/
 
-/*TROUBLESHOOTING*/
+/*TROUBLESHOOTING
 
 footer {
     border: 3px solid green;
@@ -185,6 +292,15 @@ footer {
 /*TROUBLESHOOTING END*/
 
 footer {
+    display: flex;
+    width: 100vw;
+    background: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
     display: flex;
 }
 
